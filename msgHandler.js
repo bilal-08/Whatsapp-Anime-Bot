@@ -342,6 +342,9 @@ Plan to Read: ${jikan.manga_stats.plan_to_read}`
                 fs.writeFileSync('./lib/nsfw.json', JSON.stringify(nsfwgrp))
                 client.reply(from, `NSFW is now unregistered on *${name}*`, message.id)
              }
+			break
+        case 'muda muda muda muda' :
+         client.reply(message.from, 'Ora Ora Ora Ora', message.id)
              break
         case 'kickall':
             const isGroupOwner = sender.id === chat.groupMetadata.owner
